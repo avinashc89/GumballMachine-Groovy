@@ -1,0 +1,11 @@
+
+production {
+		dataSource {
+			dbCreate = "update"  // 'create', 'create-drop','update'
+			url = "jdbc:mysql://be62c7bc3846ae:992de31f@us-cdbr-iron-east-01.cleardb.net:3306/ad_f429b5d5c68d227"
+			driverClassName = "com.mysql.jdbc.Driver"
+			username = "be62c7bc3846ae"
+			password = "992de31f"
+		}
+
+	}
